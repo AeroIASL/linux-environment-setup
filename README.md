@@ -7,6 +7,7 @@
 	* ```echo $0``` : check **current** shell
 	* ```echo $SHELL``` : check **default** shell
 * Change shell to zsh:
+	* ```sudo apt install zsh```
  	* ```chsh -s $(which zsh)```
  	* logout and log back in
  	* don't forget to populate ~/.zshrc
