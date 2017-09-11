@@ -9,8 +9,8 @@
 * Change shell to zsh:
 	* ```sudo apt install zsh```
  	* ```chsh -s $(which zsh)```
- 	* logout and log back in
- 	* don't forget to populate ~/.zshrc
+	* close current terminal and open a new one and populate ~/.zshrc
+ 	* logout and log back in if problem happened
 * Install "Oh My Zsh":
 	* ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 	  (it should automatically edit your ~/.zshrc and ready for use)
