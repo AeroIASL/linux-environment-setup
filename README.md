@@ -10,11 +10,37 @@
 	* ```sudo apt install zsh```
  	* ```chsh -s $(which zsh)```
 	* close current terminal and open a new one and populate ~/.zshrc
- 	* logout and log back in if problem happened
+ 	* logout and log back in if any problems happened
 * Install "Oh My Zsh":
 	* ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 	  (it should automatically edit your ~/.zshrc and ready for use)
-### Alias Setup
 
 ### Guake Setup
+* Clone Guake Repo at https://github.com/Guake/guake
+* cd to guake local guake repo and  ```./dev.sh --install```
+	
+### Sougou Pingyin Setup
+sougou is based on fcitx, yet ubuntu is based on iBus. Therefore we need to first install fcitx and then intall sougou.
 
+* install fcitx
+	* get source: ```sudo add-apt-repository ppa:fcitx-team/nightly```
+	* update system: ```sudo apt-get update```
+	* install fcitx: ```sudo apt-get install fcitx```
+    * install config tool: ```sudo apt-get install fcitx-config-gtk```
+    * install table-all: ```sudo apt-get install fcitx-table-all```
+    * install im-switch: '''sudo apt-get install im-switch'''
+    * check if fcitx is installed correclty by search its name in search bar
+
+* install sougou
+    * go to sougou website and download its linux version
+    * install: ```sudo dpkg -i sougoupinyin_x.x.x```
+
+* configure
+    * open ***system settings -> language support***, and change ***keyboard input method system *** from ***iBus***
+    to ***fcitx***
+    * logout
+    * go to upright corner on the screen and go to ***Peference*** (note: might be in Chinese ***She Zhi***), and add sougou pingyin
+	
+Manually change input method on upright corner of the screen, and then you should be able use ***Shift*** key to switch between two mthods.
+Reference: http://www.linuxdiyf.com/linux/22075.html
+		
