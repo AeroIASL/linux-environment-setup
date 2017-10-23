@@ -24,6 +24,7 @@ sougou is based on fcitx, yet ubuntu is based on iBus. Therefore we need to firs
 
 * install fcitx
 	* get source: ```sudo add-apt-repository ppa:fcitx-team/nightly```
+	Notice: this ppa is no longer maintained, hence you might need to go to "software and updates/other software"to disable it before apt-get update 
 	* update system: ```sudo apt-get update```
 	* install fcitx: ```sudo apt-get install fcitx```
     * install config tool: ```sudo apt-get install fcitx-config-gtk```
@@ -32,8 +33,8 @@ sougou is based on fcitx, yet ubuntu is based on iBus. Therefore we need to firs
     * check if fcitx is installed correclty by search its name in search bar
 
 * install sougou
-    * go to sougou website and download its linux version
-    * install: ```sudo dpkg -i sougoupinyin_x.x.x```
+    * go to sougou website and download the linux version
+    * install: ```sudo dpkg -i package_name```
 
 * configure
     * open ***system settings -> language support***, and change ***keyboard input method system *** from ***iBus***
@@ -41,6 +42,6 @@ sougou is based on fcitx, yet ubuntu is based on iBus. Therefore we need to firs
     * logout
     * go to upright corner on the screen and go to ***Peference*** (note: might be in Chinese ***She Zhi***), and add sougou pingyin
 	
-Manually change input method on upright corner of the screen, and then you should be able use ***Shift*** key to switch between two mthods.
+Manually change "input method" on upright corner of the screen, and then you should be able use ***Shift*** key to switch between two mthods.
 Reference: http://www.linuxdiyf.com/linux/22075.html
 		
