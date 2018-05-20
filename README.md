@@ -3,6 +3,8 @@
 ## Basics:
 
 ### Zsh Setup
+* Update
+	* ```sudo apt-get update```
 * Check shell info: 
 	* ```echo $0``` : check **current** shell
 	* ```echo $SHELL``` : check **default** shell
@@ -12,7 +14,10 @@
 	* close current terminal and open a new one and populate ~/.zshrc
  	* logout and log back in if any problems happened
 * Install "Oh My Zsh":
+	* Install curl```sh sudo apt-get install curl```
+	* Install git ```sh sudo apt-get install git-core```
 	* ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+	
 	  (it should automatically edit your ~/.zshrc and ready for use)
 
 ### Guake Setup
