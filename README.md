@@ -7,7 +7,8 @@
 * Install Vim
 	* ```sh sudo apt-get install vim```
 ### Alias Setup
-* 
+* ```sh echo "alias vz=vim ~/.zshrc" >> ~/.zshrc```
+* ```sh echo "alias sz=source ~/.zshrc" >> ~/.zshrc```
 ### Zsh Setup
 * Check shell info: 
 	* ```echo $0``` : check **current** shell
