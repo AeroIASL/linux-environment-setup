@@ -10,6 +10,12 @@
 * ``` echo "alias vz="vim ~/.zshrc"" >> ~/.zshrc```
 * ``` echo "alias sz="source ~/.zshrc"" >> ~/.zshrc```
 * ``` source ~/.zshrc```
+
+### Common Tools Setup
+* curl: ``` sudo apt-get install curl```
+^ pip: ``` sudo apt-get install python-pip```
+* git: ``` sudo apt-get install git-core```
+
 ### Zsh Setup
 * Check shell info: 
 	* ```echo $0``` : check **current** shell
@@ -20,8 +26,6 @@
 	* close current terminal and open a new one and populate ~/.zshrc
  	* logout and log back in if any problems happened
 * Install "Oh My Zsh":
-	* Install curl: ``` sudo apt-get install curl```
-	* Install git: ``` sudo apt-get install git-core```
 	* ``` -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 	
 	  (it should automatically edit your ~/.zshrc and ready for use)
@@ -39,8 +43,11 @@
 	* ```source ~/.zshrc```
 	
 ### Guake Setup
-* Clone Guake Repo at https://github.com/Guake/guake
-* cd to guake local guake repo and  ```./dev.sh --install```
+* ```sudo apt-get install guake```
+* ```sudo dpkg -l guake```
+* ```guake ```
+
+Might not work with python 2.7
 	
 ### Sougou Pingyin Setup
 sougou is based on fcitx, yet ubuntu is based on iBus. Therefore we need to first install fcitx and then intall sougou.
