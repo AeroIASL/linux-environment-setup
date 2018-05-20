@@ -5,10 +5,10 @@
 * ```sudo apt-get update```
 ### Vim Setup
 * Install Vim
-	* ```sh sudo apt-get install vim```
+	* ``` sudo apt-get install vim```
 ### Alias Setup
-* ```sh echo "alias vz=vim ~/.zshrc" >> ~/.zshrc```
-* ```sh echo "alias sz=source ~/.zshrc" >> ~/.zshrc```
+* ``` echo "alias vz=vim ~/.zshrc" >> ~/.zshrc```
+* ``` echo "alias sz=source ~/.zshrc" >> ~/.zshrc```
 ### Zsh Setup
 * Check shell info: 
 	* ```echo $0``` : check **current** shell
@@ -19,23 +19,20 @@
 	* close current terminal and open a new one and populate ~/.zshrc
  	* logout and log back in if any problems happened
 * Install "Oh My Zsh":
-	* Install curl: ```sh sudo apt-get install curl```
-	* Install git: ```sh sudo apt-get install git-core```
-	* ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+	* Install curl: ``` sudo apt-get install curl```
+	* Install git: ``` sudo apt-get install git-core```
+	* ``` -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 	
 	  (it should automatically edit your ~/.zshrc and ready for use)
 * Install Auto suggestion:
-	* ```sh git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions```
-	* ```sh echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc ```
-	* ```sh source ~/.zshrc```
-	
-### Common Alias Setup
-	* ```sh echo "alias vz="
+	* ``` git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions```
+	* ``` echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc ```
+	* ``` source ~/.zshrc```
 ### Terminator Setup
 * Install Terminator
-	* ```sh sudo add-apt-repository ppa:gnome-terminator```
-	* ```sh sudo apt-get update```
-	* ```sh sudo apt-get install terminator```
+	* ``` sudo add-apt-repository ppa:gnome-terminator```
+	* ``` sudo apt-get update```
+	* ```ssudo apt-get install terminator```
 
 ### Guake Setup
 * Clone Guake Repo at https://github.com/Guake/guake
