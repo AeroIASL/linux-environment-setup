@@ -33,8 +33,11 @@
 * Install Terminator
 	* ``` sudo add-apt-repository ppa:gnome-terminator```
 	* ``` sudo apt-get update```
-	* ```ssudo apt-get install terminator```
-
+	* ``` sudo apt-get install terminator```
+* Fix auto suggestion not greyed out issue
+	* ``` echo  "export TERM=xterm-256color" >> ~/.zshrc```
+	* ```source ~/.zshrc```
+	
 ### Guake Setup
 * Clone Guake Repo at https://github.com/Guake/guake
 * cd to guake local guake repo and  ```./dev.sh --install```
