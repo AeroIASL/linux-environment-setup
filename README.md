@@ -9,6 +9,7 @@
 ### Alias Setup
 * ``` echo "alias vz="vim ~/.zshrc"" >> ~/.zshrc```
 * ``` echo "alias sz="source ~/.zshrc"" >> ~/.zshrc```
+* ``` source ~/.zshrc```
 ### Zsh Setup
 * Check shell info: 
 	* ```echo $0``` : check **current** shell
