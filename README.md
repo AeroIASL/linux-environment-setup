@@ -59,7 +59,7 @@ sougou is based on fcitx, yet ubuntu is based on iBus. Therefore we need to firs
 	* install fcitx: ```sudo apt-get install fcitx```
     * install config tool: ```sudo apt-get install fcitx-config-gtk```
     * install table-all: ```sudo apt-get install fcitx-table-all```
-    * install im-switch: '''sudo apt-get install im-switch'''
+    * install im-switch: ```sudo apt-get install im-switch```
     * check if fcitx is installed correclty by search its name in search bar
 
 * install sougou
