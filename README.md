@@ -43,9 +43,10 @@
 	* ```source ~/.zshrc```
 	
 ### Guake Setup
-* ```sudo apt-get install guake```
-* ```sudo dpkg -l guake```
-* ```guake ```
+* ```sudo add-apt-repository ppa:webupd8team/unstable```
+* ```sudo apt update```
+* ```sudo apt install guake ```
+Reference: http://sourcedigit.com/20525-install-guake-drop-down-terminal-on-ubuntu-16-04/
 
 Might not work with python 2.7
 	
@@ -74,4 +75,7 @@ sougou is based on fcitx, yet ubuntu is based on iBus. Therefore we need to firs
 	
 Manually change "input method" on upright corner of the screen, and then you should be able use ***Shift*** key to switch between two mthods.
 Reference: http://www.linuxdiyf.com/linux/22075.html
+
+### Hugo Setup
+Reference: https://dev.to/toyotine/how-to-host-your-hugo-website-on-github-pages-4aa2
 		
