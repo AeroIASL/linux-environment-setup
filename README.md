@@ -6,6 +6,10 @@
 ### Vim Setup
 * Install Vim
 	* ``` sudo apt-get install vim```
+* Vim Configuration
+	* ```git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime```
+	* ```sh ~/.vim_runtime/install_awesome_vimrc.sh```
+	Reference: https://github.com/amix/vimrc
 ### Alias Setup
 * ``` echo "alias vz="vim ~/.zshrc"" >> ~/.zshrc```
 * ``` echo "alias sz="source ~/.zshrc"" >> ~/.zshrc```
