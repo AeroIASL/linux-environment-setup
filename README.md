@@ -31,7 +31,7 @@
 	* close current terminal and open a new one and populate ~/.zshrc
  	* logout and log back in if any problems happened
 * Install "Oh My Zsh":
-	* ``` -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+	* ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 	
 	  (it should automatically edit your ~/.zshrc and ready for use)
 * Install Auto suggestion:
